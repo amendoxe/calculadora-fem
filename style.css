@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: antiquewhite;
+	font-family: "Courier New", Courier, monospace;
+	/* font-size: medium; */
+	margin: 0px;
+}
+.dimension {
+	width: 28%;
+	background-color: #333;
+	margin: auto;
+}
+.screen {
+	display: flex;
+	align-items: flex-end;
+}
+.screen-output {
+	background-color: #333;
+	font-size: 2em;
+	color: aliceblue;
+	align-items: stretch;
+	flex: 1;
+	text-align: end;
+	resize: none;
+	min-width: -moz-available;
+	border-style: none;
+}
+/* Rows */
+.c-row {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+	margin: 0.1%;
+}
+.c-row:last-child {
+	background-color: #df974c;
+}
+.seven-row {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0.1%;
+	align-items: stretch;
+}
+.four-row {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0.1%;
+	align-items: stretch;
+}
+.one-row {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0.1%;
+	align-items: stretch;
+}
+.zero-row {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0.1%;
+	align-items: stretch;
+}
+/* Botones */
+button {
+	background-color: #d8d9db;
+	border-style: none;
+	/* margin: 0.3%; */
+	border: 1px solid black;
+	height: 2em;
+	flex: 1;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+}
+button:hover {
+	background-color: #ebebeb;
+}
+button:active {
+	background-color: #a5a5a5;
+}
+button:last-child {
+	background-color: #df974c;
+}
+button:last-child:hover {
+	background-color: #dfb07e;
+}
+button:last-child:active {
+	background-color: #fc8e19;
+}
+.c {
+	flex: 2.11;
+}
+.zero {
+	flex: 3.22;
+}
