@@ -11,7 +11,7 @@ body {
 .dimension {
 	width: 400px;
 	background-color: #333;
-	margin: auto;
+	margin: 0;
 }
 .screen {
 	display: flex;
@@ -40,42 +40,37 @@ body {
 	align-content: stretch;
 	margin: 0.1%;
 }
-.c-row:last-child {
-	background-color: #df974c;
-}
 .seven-row {
 	display: flex;
 	justify-content: space-evenly;
-	margin: 0.1%;
 	align-items: stretch;
 	align-content: stretch;
+	margin: 0.1%;
 }
 .four-row {
 	display: flex;
 	justify-content: space-evenly;
-	margin: 0.1%;
 	align-items: stretch;
 	align-content: stretch;
+	margin: 0.1%;
 }
 .one-row {
 	display: flex;
 	justify-content: space-evenly;
-	margin: 0.1%;
 	align-items: stretch;
 	align-content: stretch;
+	margin: 0.1%;
 }
 .zero-row {
 	display: flex;
 	justify-content: space-evenly;
-	margin: 0.1%;
 	align-items: stretch;
 	align-content: stretch;
+	margin: 0.1%;
 }
-/* Botones */
 button {
 	background-color: #d8d9db;
 	border-style: none;
-	/* margin: 0.3%; */
 	border: 1px solid black;
 	height: 2em;
 	flex: 1;
