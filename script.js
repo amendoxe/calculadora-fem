@@ -72,7 +72,6 @@ document.querySelector(".button-container").addEventListener("click", function (
 		addToReceiver(event);
 	}
 	if (event.target.id == "divide") {
-		//guarda número hasta ahora y escribe otro número
 		storeIt();
 		eraseIt();
 		num = 1;
@@ -95,12 +94,10 @@ document.querySelector(".button-container").addEventListener("click", function (
 	if (event.target.id == "equals") {
 		operation(num);
 		console.log(`Resultado de la operación: ${result}`);
-		receiver = result;
+		receiver = Math.floor(result);
 		document.querySelector(".screen-output").value = receiver;
 		console.log(document.querySelector(".screen-output").value);
 		num = 0;
 		storeIt();
-		// eraseIt();
-		// console.log(`receiver equals to :${receiver}`);
 	}
 });
