@@ -65,6 +65,7 @@ body {
 }
 button {
 	background-color: #d8d9db;
+	color: black;
 	border-style: none;
 	border: 1px solid black;
 	height: 2em;
