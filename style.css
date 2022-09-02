@@ -82,7 +82,7 @@ button:active {
 }
 button:last-child {
 	background-color: #df974c;
-	color: aliceblue;
+	color: white;
 }
 button:last-child:hover {
 	background-color: #dfb07e;
