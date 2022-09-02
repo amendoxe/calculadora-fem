@@ -27,6 +27,10 @@ body {
 	min-width: -moz-available;
 	border-style: none;
 }
+::placeholder {
+	color: aliceblue;
+	opacity: 1;
+}
 /* Rows */
 .c-row {
 	display: flex;
