@@ -9,7 +9,6 @@ function addToReceiver(event) {
 }
 function storeIt() {
 	memory = parseInt(receiver);
-	console.log(`memory is: ${memory}`);
 }
 function eraseIt() {
 	document.querySelector(".screen-output").value = "";
@@ -28,18 +27,14 @@ function operation(num) {
 	if (num == 4) {
 		result = memory + parseInt(receiver);
 	}
-
-	console.log(`operation is: ${num}`);
 }
 document.querySelector(".button-container").addEventListener("click", function (event) {
-	console.log(event.target.innerText);
 	if (event.target.innerText === "C") {
 		eraseIt();
 	}
 	if (event.target.id == "left-arrow") {
 		receiver.slice(0, -1);
 		document.querySelector(".screen-output").value = receiver;
-		console.log(receiver);
 	}
 	if (event.target.innerText == 0) {
 		addToReceiver(event);
@@ -93,10 +88,8 @@ document.querySelector(".button-container").addEventListener("click", function (
 	}
 	if (event.target.id == "equals") {
 		operation(num);
-		console.log(`Resultado de la operación: ${result}`);
 		receiver = Math.floor(result);
 		document.querySelector(".screen-output").value = receiver;
-		console.log(document.querySelector(".screen-output").value);
 		num = 0;
 		storeIt();
 	}
