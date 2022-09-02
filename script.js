@@ -33,8 +33,8 @@ document.querySelector(".button-container").addEventListener("click", function (
 		eraseIt();
 	}
 	if (event.target.id == "left-arrow") {
-		receiver.slice(0, -1);
-		document.querySelector(".screen-output").value = receiver;
+		document.querySelector(".screen-output").value = receiver.slice(0, -1);
+		console.log(receiver);
 	}
 	if (event.target.innerText == 0) {
 		addToReceiver(event);
