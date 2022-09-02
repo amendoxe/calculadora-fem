@@ -36,8 +36,8 @@ body {
 .c-row {
 	display: flex;
 	justify-content: space-evenly;
-	align-items: stretch;
-	align-content: stretch;
+	align-items: flex-start;
+	align-content: flex-start;
 }
 .seven-row {
 	display: flex;
