@@ -6,9 +6,10 @@ body {
 	font-family: "Courier New", Courier, monospace;
 	/* font-size: medium; */
 	margin: 0px;
+	padding: 0%;
 }
 .dimension {
-	width: 28%;
+	width: 400px;
 	background-color: #333;
 	margin: auto;
 }
@@ -36,6 +37,7 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: stretch;
+	align-content: stretch;
 	margin: 0.1%;
 }
 .c-row:last-child {
@@ -46,24 +48,28 @@ body {
 	justify-content: space-evenly;
 	margin: 0.1%;
 	align-items: stretch;
+	align-content: stretch;
 }
 .four-row {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0.1%;
 	align-items: stretch;
+	align-content: stretch;
 }
 .one-row {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0.1%;
 	align-items: stretch;
+	align-content: stretch;
 }
 .zero-row {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0.1%;
 	align-items: stretch;
+	align-content: stretch;
 }
 /* Botones */
 button {
@@ -76,6 +82,7 @@ button {
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 40px;
+	cursor: pointer;
 }
 button:hover {
 	background-color: #ebebeb;
@@ -85,9 +92,11 @@ button:active {
 }
 button:last-child {
 	background-color: #df974c;
+	color: aliceblue;
 }
 button:last-child:hover {
 	background-color: #dfb07e;
+	color: #242424;
 }
 button:last-child:active {
 	background-color: #fc8e19;
