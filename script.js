@@ -34,10 +34,15 @@ document.querySelector(".button-container").addEventListener("click", function (
 	}
 	if (event.target.id == "left-arrow") {
 		//this is not really working
+<<<<<<< HEAD
 		//MAIN
 		document.querySelector(".screen-output").value = receiver.substring(0, receiver.length - 1);
 		receiver = document.querySelector(".screen-output").value;
 
+=======
+		document.querySelector(".screen-output").value = receiver.substring(0, receiver.length - 1);
+		receiver = document.querySelector(".screen-output").value;
+>>>>>>> c03257f07a9cdf248c1ceaf8a089c0053358c85e
 		console.log(receiver);
 		console.log(event.target.type);
 	}
