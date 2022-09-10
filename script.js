@@ -37,6 +37,7 @@ document.querySelector(".button-container").addEventListener("click", function (
 		//MAIN
 		document.querySelector(".screen-output").value = receiver.substring(0, receiver.length - 1);
 		receiver = document.querySelector(".screen-output").value;
+
 		console.log(receiver);
 		console.log(event.target.type);
 	}
