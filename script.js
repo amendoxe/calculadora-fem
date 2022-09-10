@@ -34,6 +34,7 @@ document.querySelector(".button-container").addEventListener("click", function (
 	}
 	if (event.target.id == "left-arrow") {
 		//this is not really working
+		//MAIN
 		document.querySelector(".screen-output").value = receiver.substring(0, receiver.length - 1);
 		receiver = document.querySelector(".screen-output").value;
 		console.log(receiver);
