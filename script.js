@@ -33,8 +33,11 @@ document.querySelector(".button-container").addEventListener("click", function (
 		eraseIt();
 	}
 	if (event.target.id == "left-arrow") {
-		document.querySelector(".screen-output").value = receiver.slice(0, -1);
+		//this is not really working
+		document.querySelector(".screen-output").value = receiver.substring(0, receiver.length - 1);
+		receiver = document.querySelector(".screen-output").value;
 		console.log(receiver);
+		console.log(event.target.type);
 	}
 	if (event.target.innerText == 0) {
 		addToReceiver(event);
